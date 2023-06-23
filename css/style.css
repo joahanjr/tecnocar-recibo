@@ -1,0 +1,239 @@
+@page {
+     size: 21cm 29.7cm; /* Tamaño de página en centímetros */
+     margin: 0;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html {
+     font-size: 62.5%;
+}
+
+/* estilo del header */
+header{
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+}
+header section{
+     width: 50%;
+}
+header section img{
+     width: 100px;
+     margin-left: 10px;
+}
+header section h2{
+     text-align: right;
+     font-size: 1.2rem;
+}
+/* estilos del cuerpo */
+.container{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+.container-datos, .container-numOrden{
+     display: flex;
+     width: 50%;
+}
+.container-datos{
+     flex-direction: column;
+}
+.container-datos p{
+     font-size: 1rem;
+}
+.container-datos span img{
+     width: 10px;
+}
+.container-numOrden{
+     flex-direction: column;
+     justify-content: end;
+     align-items: end;
+}
+.container-numOrden div label{
+     font-size: 1rem;
+}
+.container-numOrden div input{
+     width: 150px;
+     height: 20px;
+}
+
+.datos-arriba{
+     margin-top: 5px;
+     width: 100%;
+     display: flex;
+}
+.div1{
+     width: 40%;
+}
+.div1 label{
+     font-size: 1rem;
+}
+.div2{
+     width: 60%;
+     font-size: 1rem;
+}
+
+.data-table {
+     width: 100%;
+}
+
+.data-table td {
+     border: 1px solid #ccc;
+}
+
+.data-table td[colspan="2"] {
+     width: 50%;
+}
+
+.data-table td[colspan="4"] {
+     width: 100%;
+}
+
+.data-table td label{
+     font-size: 1rem;
+}
+
+.data-table td input{
+     width:40%;
+     height: 10px;
+     border: none;
+}
+.cuerpoDatos{
+     width: 100%;
+}
+.cuerpoDatos th{
+     width: 33.33%;
+     font-size: 1rem;
+
+}
+.cuerpoDatos td {
+     border: 1px solid #ccc;
+}
+.cuerpoDatos label{
+     font-size: 1rem;
+}
+.cuerpoDatos input{
+     width: 40%;
+     height: 10px;
+     border: none;
+}
+.detalles{
+     text-align: start;
+}
+#DETALLES{
+     width: 100%;
+     height: 30px;
+}
+.cuerpoDos{
+     width: 100%;
+}
+.cuerpoDos th{
+     width: 33.33%;
+     font-size: 1rem;
+}
+.cuerpoDos td {
+     border: 1px solid #ccc;
+}
+.cuerpoDos label{
+     font-size: 1rem;
+}
+.cuerpoDos input{
+     width: 40%;
+     height: 10px;
+     border: none;
+}
+.cuerpofinal{
+     width: 100%;
+}
+.cuerpofinal .one{
+     width: 10%;
+     font-size: 1rem;
+}
+.cuerpofinal .two{
+     width: 60%;
+     font-size: 1rem;
+
+}
+.cuerpofinal .tree{
+     width: 20%;
+     font-size: 1rem;
+}
+.cuerpofinal td {
+     border: 1px solid #ccc;
+}
+
+.cuerpofinal p{
+     text-align: end;
+     font-size: 1rem;
+}
+.cuerpofinal input{
+     border: none;
+     width: 75%;
+}
+.cuerpofinal label{
+     text-align: end;
+}
+
+.ultimo{
+     width: 100%;
+}
+.ultimo th{
+     width: 50%;
+     font-size: 1rem;
+}
+.ultimo td{
+     border: 1px solid #ccc;
+}
+.ultimo .this{
+     width: 100%;
+     height: 40px;
+}
+.ultimo label{
+     font-size: 1rem;
+}
+.ultimo input{
+     width: 40%;
+     border: none;
+}
+.cuadro{
+     border: 1px #ccc solid;
+}
+.completo{
+     margin-top: 10px;
+     text-align: center;
+     font-size: 1rem;
+}
+.completo input{
+     border: none;
+     border-bottom: 1px black solid;
+}
+.medio{
+     display: flex;
+     width: 100%;
+}
+.mediotext{
+     text-align: center;
+     width: 50%;
+     font-size: 1rem;
+     margin: 10px 0;
+
+}
+.final label{
+     font-size: 1rem;
+}
+.final input{
+     width: 100%;
+     height: 50px;
+}
+.inactive{
+     display: none;
+}
+input{
+     font-size: .9rem;
+}
